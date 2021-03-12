@@ -1,0 +1,100 @@
+/*
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+html{
+  font-family: 'Roboto Condensed', sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background: rgb(202, 202, 202);
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a::before{
+  color:black;
+}
+a.active{
+  background-color: rgb(146, 130, 148);
+  padding: 0rem;
+  padding-bottom: 0.2rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  box-shadow: 2px 5px 4px rgb(58, 56, 56);
+  border-radius: 5px;
+}
+a:visited {
+  color: black;
+}
+
+/* Index style */
+nav {
+  background: linear-gradient(to right,rgb(202, 202, 202), rgb(163, 162, 163),rgb(146, 130, 148),rgb(163, 162, 163),rgb(202, 202, 202) );
+  padding-top: 1.4em;
+  min-height: 8vh;
+  box-shadow: 0px 3px 10px grey;
+  justify-content: center;
+  flex: 0;
+  align-items: center;
+}
+nav a {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight:bold;
+  margin: 0.5rem;
+  cursor:pointer;
+  padding: 0rem;
+  padding-bottom: 0.2rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+nav a:hover{
+  color: rgb(224, 222, 222);
+  box-shadow: 2px 2px 4px rgb(58, 56, 56);
+  border-radius: 5px;
+}
+ul {
+  list-style-type: none;
+  margin-right: 2.5%;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+footer{
+    max-height: 50px;
+    padding: 1px;
+    bottom: 0;
+}
+hr{
+    width: 220vh;
+}
+.profile-picture{
+  border-radius: 20%;
+  border-style:unset;
+  border-color: black;
+  border-width: 2.5px;
+  box-shadow: 0px 7px 7px rgb(58, 56, 56);
+}
+.profile-picture:hover{
+  cursor: url('images/in-love_1_25px.png'), auto;
+}
+
+/* Contact style */
+a.mail{
+  color: blue;
+}
+
+/* Portfolio style */
+.github-link:visited{
+  color: blue;
+}
+.github-link:hover{
+  color:red;
+}
