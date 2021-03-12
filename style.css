@@ -30,9 +30,6 @@ a.active{
   box-shadow: 2px 5px 4px rgb(58, 56, 56);
   border-radius: 5px;
 }
-a:visited {
-  color: black;
-}
 
 /* Index style */
 nav {
@@ -54,6 +51,7 @@ nav a {
   padding-bottom: 0.2rem;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+  color: black;
 }
 nav a:hover{
   color: rgb(224, 222, 222);
