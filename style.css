@@ -11,7 +11,7 @@ html{
 body {
   background: rgb(202, 202, 202);
   text-align: center;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -64,9 +64,6 @@ ul {
 }
 h1{
   font-family: 'Poppins', sans-serif;
-}
-.infotext{
-  height: 12vh;
 }
 footer{
     max-height: 50px;
